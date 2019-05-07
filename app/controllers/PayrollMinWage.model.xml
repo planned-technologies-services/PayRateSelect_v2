@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="PayrollMinWage" alias="PayrollMinWage" created="2019-04-10T12:27:03" modified="2019-04-11T10:20:18" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="psminid" fieldName="Psminid" label="ID" />
+    <column name="jurisdiction" fieldName="Jurisdiction" label="Jurisdiction" />
+    <column name="state" fieldName="State" label="State" />
+    <column name="city" fieldName="City" label="City" />
+    <column name="county" fieldName="County" label="County" />
+    <column name="effective_date" fieldName="EffectiveDate" label="Effective Date" />
+    <column name="min_hourly_rate" fieldName="MinHourlyRate" label="Min Hourly Rate" />
+    <column name="prev_min_houlry_rate" fieldName="PrevMinHoulryRate" label="Prev Min Houlry Rate" />
+    <column name="next_min_hourly_rate" fieldName="NextMinHourlyRate" label="Next Min Hourly Rate" />
+    <column name="next_effective_date" fieldName="NextEffectiveDate" label="Next Effective Date" />
+    <column name="comment" fieldName="Comment" label="Comment" />
+    <column name="created_date" fieldName="CreatedDate" label="Created Date" format="g" />
+    <column name="created_by" fieldName="CreatedBy" label="Created By" />
+    <column name="updated_date" fieldName="UpdatedDate" label="Updated Date" format="g" />
+    <column name="updated_by" fieldName="UpdatedBy" label="Updated By" />
+    <column name="isActive" fieldName="isActive" label="is Active?" />
+    <column name="isPastRule" fieldName="isPastRule" label="is Past Rule" />
+  </columns>
+</dataModel>

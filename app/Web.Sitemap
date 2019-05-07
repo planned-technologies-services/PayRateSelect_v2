@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="^SiteHome^Home^SiteHome^" description="" url="~/index.html">
+    <siteMapNode title="^HomePath^Home^HomePath^" description="^HomeDesc^Application home page^HomeDesc^" url="~/pages/home" cssClass="Wide" />
+    <siteMapNode title="Employee List" description="View Employee List" url="~/pages/vemployee-active" cssClass="material-icon-group" />
+    <siteMapNode title="Payroll Minimum Wage" description="View Payroll Minimum Wage" url="~/pages/payroll-min-wage" cssClass="material-icon-attach-money" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?><logs><log type="Controllers"><c y="NodeSet" t="2019-04-10T12:44:00"><controller name="VEmployeeActive" />
+<field name="WorkOrder" />
+<insert type="item">
+  <Value>0</Value>
+  <Text>No</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T12:44:09"><controller name="VEmployeeActive" />
+<field name="WorkOrder" />
+<insert type="item">
+  <Value>1</Value>
+  <Text>Yes</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T12:44:42"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Label>Employee List</Label>
+</update></c><c y="NodeSet" t="2019-04-10T12:46:44"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Employeeid" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:19:22"><controller name="VEmployeeActive" />
+<view id="editForm1" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:19:22"><controller name="VEmployeeActive" />
+<view id="createForm1" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:21:17"><controller name="VEmployeeActive" />
+<field name="VsiteallIsspecialproject" />
+<update>
+  <Label>Work Order?</Label>
+</update></c><c y="NodeSet" t="2019-04-10T13:22:26"><controller name="VEmployeeActive" />
+<field name="VsiteallIsspecialproject" />
+<insert type="item">
+  <Text>No</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T13:22:36"><controller name="VEmployeeActive" />
+<field name="VsiteallIsspecialproject" />
+<insert type="item">
+  <Value>1</Value>
+  <Text>Yes</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T13:26:00"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a2" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:00"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a3" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:00"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a6" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:00"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a7" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:00"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a8" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:14"><controller name="VEmployeeActive" />
+<actionGroup id="ag2" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:14"><controller name="VEmployeeActive" />
+<actionGroup id="ag3" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:14"><controller name="VEmployeeActive" />
+<actionGroup id="ag4" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:26:14"><controller name="VEmployeeActive" />
+<actionGroup id="ag6" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:39:09"><controller name="VEmployeeActive" />
+<actionGroup id="ag1" />
+<action id="a1" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:39:18"><controller name="VEmployeeActive" />
+<actionGroup id="ag8" />
+<delete /></c><c y="NodeSet" t="2019-04-10T13:40:20"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <FilterExpression>EmploymentStatus != 'T'</FilterExpression>
+</update></c><c y="NodeSet" t="2019-04-10T13:40:30"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="EmploymentStatus" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:43:18"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallState" />
+<update>
+  <Search>Required</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:43:36"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallCitySection" />
+<update>
+  <Search>Required</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:43:57"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Search>Required</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:44:50"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallCitySection" />
+<update>
+  <Tag>=</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:45:50"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallCitySection" />
+<update>
+  <Tag>$includes</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:46:03"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallState" />
+<update>
+  <Tag>=</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:46:43"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <SearchOptions>=,&lt;,&lt;=,&gt;,&gt;=</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:47:00"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallCitySection" />
+<update>
+  <Tag />
+  <SearchOptions>$includes</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:47:33"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallCitySection" />
+<update>
+  <SearchOptions>$in</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T13:47:51"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="VsiteallState" />
+<update>
+  <Tag />
+  <SearchOptions>=</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:08:48"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <FilterExpression />
+</update></c><c y="NodeSet" t="2019-04-10T14:10:11"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <Search>Required</Search>
+  <SearchOptions>$in</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:10:49"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Tag>=,&lt;,&gt;,&lt;=,&gt;=</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:11:32"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Tag>&lt;=,=,&lt;,&gt;,&gt;=</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:12:17"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <Search>Required</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:26:21"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="LastpaidDate" />
+<update>
+  <TextMode>Static</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T14:29:56"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a6" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a3" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a4" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a2" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a5" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a7" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:30:36"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<action id="a8" />
+<delete /></c><c y="NodeSet" t="2019-04-10T14:32:25"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <Label>Last Paid Date</Label>
+</update></c><c y="NodeSet" t="2019-04-10T14:32:35"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <Type>Date</Type>
+</update></c><c y="NodeSet" t="2019-04-10T15:14:36"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <DataFormatString>c2</DataFormatString>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:14:42"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <DataFormatString />
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:15:02"><controller name="VEmployeeActive" />
+<field name="Rate1amt" />
+<update>
+  <DataFormatString>c2</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-10T15:16:27"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-10T15:29:35"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <Label>County</Label>
+</update></c><c y="NodeSet" t="2019-04-10T15:31:19"><controller name="VEmployeeActive" />
+<field name="Jobno" />
+<update>
+  <Label>Job No.</Label>
+</update></c><c y="NodeSet" t="2019-04-10T15:31:48"><controller name="VEmployeeActive" />
+<field name="WorkOrder" />
+<update>
+  <Formula>case
+	when "vEmployeeActive"."site_workorder" is null then 0
+	else "vEmployeeActive"."site_workorder"
+end</Formula>
+  <Label>Work Order?</Label>
+</update></c><c y="NodeSet" t="2019-04-10T15:32:50"><controller name="VEmployeeActive" />
+<field name="WorkOrder" />
+<update>
+  <Formula>case
+	when "vEmployeeActive"."site_workorder" is null then 0
+	else "vEmployeeActive"."site_workorder"
+end</Formula>
+  <Label>Work Order</Label>
+</update></c><c y="NodeSet" t="2019-04-10T15:37:07"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <SearchOptions>$disablemultiplevalues</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:39:53"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <SearchOptions />
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:40:24"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <SearchOptions>$in</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:45:52"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <SearchOptions />
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:45:58"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SiteState" />
+<update>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:53:30"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="site_state" />
+<update>
+  <Search>Required</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:54:21"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="site_state" />
+<update>
+  <SearchOptions>=</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T15:56:08"><controller name="VEmployeeActive" />
+<field name="Employeeid" />
+<update>
+  <IsPrimaryKey>false</IsPrimaryKey>
+</update></c><c y="NodeSet" t="2019-04-10T16:04:41"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <ItemsStyle>ListBox</ItemsStyle>
+  <ItemsDataController>VEmployeeActive</ItemsDataController>
+  <ItemsDataView>grid1</ItemsDataView>
+  <ItemsDataValueField>site_state</ItemsDataValueField>
+  <ItemsDataTextField>site_state</ItemsDataTextField>
+</update></c><c y="NodeSet" t="2019-04-10T16:08:38"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <ItemsStyle>DropDownList</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-10T16:13:42"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <ItemsStyle>CheckBoxList</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-10T16:14:46"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <ItemsStyle>OneToOne</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-10T16:18:42"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <AllowNulls>false</AllowNulls>
+  <ReadOnly>true</ReadOnly>
+</update></c><c y="NodeSet" t="2019-04-10T16:22:04"><controller name="VEmployeeActive" />
+<field name="site_state" />
+<update>
+  <AllowNulls>true</AllowNulls>
+</update></c><c y="NodeSet" t="2019-04-10T16:35:53"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="site_state" />
+<update>
+  <Search>Suggested</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T16:36:15"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <Search>Suggested</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T16:36:29"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Search>Suggested</Search>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T16:47:20"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <FilterExpression>SalhrType &lt;&gt; 'S'</FilterExpression>
+</update></c><c y="NodeSet" t="2019-04-10T16:49:10"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="SalhrType" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:15:18"><controller name="PayrollMinWage" />
+<field name="State" />
+<update>
+  <ItemsStyle>DropDownList</ItemsStyle>
+  <ItemsDataController>UnivtblStates</ItemsDataController>
+  <ItemsDataView>grid1</ItemsDataView>
+  <ItemsDataValueField>StateCode</ItemsDataValueField>
+  <ItemsDataTextField>StateCode</ItemsDataTextField>
+</update></c><c y="NodeSet" t="2019-04-10T17:16:17"><controller name="PayrollMinWage" />
+<field name="PrevMinHoulryRate" />
+<update>
+  <Type>Currency</Type>
+  <DataFormatString>c2</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-10T17:16:27"><controller name="PayrollMinWage" />
+<field name="MinHourlyRate" />
+<update>
+  <Type>Currency</Type>
+  <DataFormatString>c2</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-10T17:16:49"><controller name="PayrollMinWage" />
+<field name="NextMinHourlyRate" />
+<update>
+  <Type>Currency</Type>
+  <DataFormatString>c2</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-10T17:17:38"><controller name="PayrollMinWage" />
+<field name="PrevMinHoulryRate" />
+<update>
+  <Label>Previous Min Hourly Rate</Label>
+</update></c><c y="NodeSet" t="2019-04-10T17:18:55"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<insert type="category">
+  <HeaderText>Audit</HeaderText>
+  <Flow>NewRow</Flow>
+</insert></c><c y="NodeSet" t="2019-04-10T17:19:12"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="CreatedDate" />
+</move></c><c y="NodeSet" t="2019-04-10T17:19:12"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="CreatedBy" />
+</move></c><c y="NodeSet" t="2019-04-10T17:19:12"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="UpdatedDate" />
+</move></c><c y="NodeSet" t="2019-04-10T17:19:12"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="UpdatedBy" />
+</move></c><c y="NodeSet" t="2019-04-10T17:20:30"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <Default>(getdate())</Default>
+</update></c><c y="NodeSet" t="2019-04-10T17:20:45"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <Default />
+</update></c><c y="NodeSet" t="2019-04-10T17:23:49"><controller name="PayrollMinWage" />
+<insert type="rule">
+  <Type>Sql</Type>
+  <CommandName>New</CommandName>
+  <Phase>Execute</Phase>
+  <Script>SET @CreatedDate = GETDATE()</Script>
+</insert></c><c y="NodeSet" t="2019-04-10T17:24:44"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:24:51"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:25:01"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:25:07"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>true</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:25:19"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c1" />
+<dataField fieldName="Comment" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="isActive" />
+</move></c><c y="NodeSet" t="2019-04-10T17:25:19"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c1" />
+<dataField fieldName="Comment" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="isPastRule" />
+</move></c><c y="NodeSet" t="2019-04-10T17:26:34"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <TextMode>Static</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:26:41"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <TextMode>Static</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:26:49"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <TextMode>Static</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:26:57"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <TextMode>Static</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:27:51"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[Createdby] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:28:09"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedDate] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:28:24"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[Updateby] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:29:17"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedBy] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:29:31"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedDate] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:29:50"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdateBy] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:30:35"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedBy] != NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:31:01"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedBy] != 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:31:40"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedDate] !== NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:31:49"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedDate] !== null</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:32:09"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedDate] !== NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:32:20"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedBy] !== NULL</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:33:16"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedBy] !== 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:33:28"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedDate] !== 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:33:37"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedBy" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedBy] !== 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:33:45"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[CreatedDate] !== 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-10T17:34:39"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<insert type="item">
+  <Value>0</Value>
+  <Text>No</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T17:34:45"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<insert type="item">
+  <Value>1</Value>
+  <Text>Yes</Text>
+</insert></c><c y="NodeSet" t="2019-04-10T17:34:51"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<move>
+  <controller name="PayrollMinWage" />
+  <field name="isActive" />
+  <item value="0" />
+</move></c><c y="NodeSet" t="2019-04-10T17:34:51"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<move>
+  <controller name="PayrollMinWage" />
+  <field name="isActive" />
+  <item value="1" />
+</move></c><c y="NodeSet" t="2019-04-10T17:34:56"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<copy>
+  <controller name="PayrollMinWage" />
+  <field name="isPastRule" />
+  <item value="0" />
+</copy></c><c y="NodeSet" t="2019-04-10T17:34:56"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<copy>
+  <controller name="PayrollMinWage" />
+  <field name="isPastRule" />
+  <item value="1" />
+</copy></c><c y="NodeSet" t="2019-04-10T17:35:50"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+  <Label>Is Past Rule?</Label>
+</update></c><c y="NodeSet" t="2019-04-11T10:16:59"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isActive" is null
+	then 0
+	else "PayrollMinWage"."isActive"
+end</Formula>
+  <Calculated>true</Calculated>
+  <ReadOnly>false</ReadOnly>
+</update></c><c y="NodeSet" t="2019-04-11T10:17:16"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+  <ReadOnly>false</ReadOnly>
+</update></c><c y="NodeSet" t="2019-04-11T10:24:30"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<item value="0" />
+<delete /></c><c y="NodeSet" t="2019-04-11T10:24:46"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<insert type="item">
+  <Text>No</Text>
+</insert></c><c y="NodeSet" t="2019-04-11T10:24:53"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<item value="0" />
+<delete /></c><c y="NodeSet" t="2019-04-11T10:24:57"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<copy>
+  <controller name="PayrollMinWage" />
+  <field name="isActive" />
+  <item value="NULL" />
+</copy></c><c y="NodeSet" t="2019-04-11T10:25:14"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<move>
+  <controller name="PayrollMinWage" />
+  <field name="isActive" />
+</move></c><c y="NodeSet" t="2019-04-11T10:25:14"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<move>
+  <controller name="PayrollMinWage" />
+  <field name="isPastRule" />
+</move></c><c y="NodeSet" t="2019-04-11T10:32:00"><controller name="PayrollMinWage" />
+<insert type="rule">
+  <Type>JavaScript</Type>
+  <CommandName>Insert|Update</CommandName>
+  <Phase>Before</Phase>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+if(a == null){
+ a = 0;
+}
+
+if(b == null){
+ b = 0;
+}</Script>
+</insert></c><c y="NodeSet" t="2019-04-11T10:34:23"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+if(a == null || a == ''){
+ a = 0;
+}
+
+if(b == null || b == ''){
+ b = 0;
+}</Script>
+</update></c><c y="NodeSet" t="2019-04-11T10:34:38"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+if(a == null || a == ''){
+ a = 0;
+}
+
+if(b == null || b == ''){
+ b = 0;
+}</Script>
+</update></c><c y="NodeSet" t="2019-04-11T10:35:34"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+if(a == null || a == ''){
+ a = 0;
+}
+
+if(b == null || b == ''){
+ b = 0;
+}</Script>
+  <Phase>After</Phase>
+</update></c><c y="NodeSet" t="2019-04-11T10:36:52"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+console.log(a);
+console.log(b);
+
+if(a == null || a == ''){
+ a = 0;
+}
+
+if(b == null || b == ''){
+ b = 0;
+}</Script>
+</update></c><c y="NodeSet" t="2019-04-11T10:37:00"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>var a = [isActive];
+var b = [isPastRule];
+
+console.log(a);
+console.log(b);
+
+if(a == null || a == ''){
+ a = 0;
+}
+
+if(b == null || b == ''){
+ b = 0;
+}</Script>
+  <Phase>Before</Phase>
+</update></c><c y="NodeSet" t="2019-04-11T11:25:31"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<delete /></c><c y="NodeSet" t="2019-04-11T11:27:50"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<item value="NULL" />
+<delete /></c><c y="NodeSet" t="2019-04-11T11:27:56"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<item value="NULL" />
+<delete /></c><c y="NodeSet" t="2019-04-11T11:28:07"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<insert type="item">
+  <Value>0</Value>
+  <Text>No</Text>
+</insert></c><c y="NodeSet" t="2019-04-11T11:28:11"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<copy>
+  <controller name="PayrollMinWage" />
+  <field name="isActive" />
+  <item value="0" />
+</copy></c><c y="NodeSet" t="2019-04-11T11:33:22"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isActive" is null
+	then 0
+	else "PayrollMinWage"."isActive"
+end</Formula>
+  <ItemsStyle>CheckBox</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-11T11:33:30"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+  <ItemsStyle>CheckBox</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-11T11:34:05"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <ItemsStyle>CheckBoxList</ItemsStyle>
+  <ItemsDataController>VEmployeeActive</ItemsDataController>
+</update></c><c y="NodeSet" t="2019-04-11T11:40:10"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <ItemsStyle />
+</update></c><c y="NodeSet" t="2019-04-11T11:40:29"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <SearchOptions>$contains</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T11:42:43"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <SearchOptions />
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T11:45:08"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <Tag>$include</Tag>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T11:45:33"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <ItemsStyle>CheckBox</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-11T11:48:22"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<dataField fieldName="CitySection" />
+<update>
+  <SearchOptions>$in</SearchOptions>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T11:49:18"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <ItemsStyle>DropDownList</ItemsStyle>
+  <ItemsDataView>grid1</ItemsDataView>
+  <ItemsDataValueField>CitySection</ItemsDataValueField>
+  <ItemsDataTextField>CitySection</ItemsDataTextField>
+</update></c><c y="NodeSet" t="2019-04-11T11:51:49"><controller name="VEmployeeActive" />
+<field name="CitySection" />
+<update>
+  <Label>Site County</Label>
+</update></c><c y="NodeSet" t="2019-04-11T11:56:59"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<insert type="category">
+  <HeaderText>Minimum Wage Information</HeaderText>
+  <Flow>NewRow</Flow>
+</insert></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="EffectiveDate" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="MinHourlyRate" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="PrevMinHoulryRate" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="NextMinHourlyRate" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="NextEffectiveDate" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:13"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c3" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c1" />
+  <dataField fieldName="Comment" />
+</move></c><c y="NodeSet" t="2019-04-11T11:57:17"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c1" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="editForm1" />
+  <category id="c3" />
+</move></c><c y="NodeSet" t="2019-04-11T12:00:33"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="County" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="grid1" />
+  <dataField fieldName="isPastRule" />
+</move></c><c y="NodeSet" t="2019-04-11T12:00:33"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="County" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="grid1" />
+  <dataField fieldName="isActive" />
+</move></c><c y="NodeSet" t="2019-04-11T12:00:44"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="UpdatedBy" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:00:44"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="CreatedBy" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:03:14"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isActive" is null
+	then 0
+	else "PayrollMinWage"."isActive"
+end</Formula>
+  <ItemsStyle>RadioButtonList</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-11T12:03:22"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+  <ItemsStyle>RadioButtonList</ItemsStyle>
+</update></c><c y="NodeSet" t="2019-04-11T12:07:36"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c1" />
+<update>
+  <HeaderText>General Information</HeaderText>
+  <Description />
+</update></c><c y="NodeSet" t="2019-04-11T12:08:13"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c1" />
+<update>
+  <HeaderText>General Information</HeaderText>
+  <Description />
+  <Flow>NewRow</Flow>
+</update></c><c y="NodeSet" t="2019-04-11T12:08:22"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<category id="c1" />
+<update>
+  <Flow>NewRow</Flow>
+</update></c><c y="NodeSet" t="2019-04-11T12:08:54"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<insert type="category">
+  <HeaderText>Minimum Wage Information</HeaderText>
+  <Flow>NewRow</Flow>
+</insert></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="EffectiveDate" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="Comment" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="NextEffectiveDate" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="NextMinHourlyRate" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="PrevMinHoulryRate" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:20"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c1" />
+  <dataField fieldName="MinHourlyRate" />
+</move></c><c y="NodeSet" t="2019-04-11T12:09:30"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<category id="c2" />
+<dataField fieldName="MinHourlyRate" />
+<move>
+  <controller name="PayrollMinWage" />
+  <view id="createForm1" />
+  <category id="c2" />
+  <dataField fieldName="Comment" />
+</move></c><c y="NodeSet" t="2019-04-11T12:10:06"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <AllowNulls>true</AllowNulls>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+</update></c><c y="NodeSet" t="2019-04-11T12:11:11"><controller name="PayrollMinWage" />
+<field name="isPastRule" />
+<update>
+  <AllowNulls>false</AllowNulls>
+  <Formula>case
+	when "PayrollMinWage"."isPastRule" is null
+	then 0
+	else "PayrollMinWage"."isPastRule"
+end</Formula>
+</update></c><c y="NodeSet" t="2019-04-11T12:12:38"><controller name="PayrollMinWage" />
+<field name="isActive" />
+<update>
+  <Formula>case
+	when "PayrollMinWage"."isActive" is null
+	then 0
+	else "PayrollMinWage"."isActive"
+end</Formula>
+  <CodeDefault>((1))</CodeDefault>
+</update></c><c y="NodeSet" t="2019-04-11T12:16:29"><controller name="VEmployeeActive" />
+<insert type="view">
+  <ViewId>ChartSummary</ViewId>
+  <Type>Chart</Type>
+  <Legend>true</Legend>
+  <CommandId>command1</CommandId>
+  <Label>Summary</Label>
+  <ShowInSelector>true</ShowInSelector>
+  <ReportTemplate>false</ReportTemplate>
+</insert></c><c y="NodeSet" t="2019-04-11T12:17:01"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<move>
+  <controller name="VEmployeeActive" />
+  <field name="site_state" />
+</move></c><c y="NodeSet" t="2019-04-11T12:17:01"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<move>
+  <controller name="VEmployeeActive" />
+  <field name="CitySection" />
+</move></c><c y="NodeSet" t="2019-04-11T12:17:01"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<move>
+  <controller name="VEmployeeActive" />
+  <field name="Rate1amt" />
+</move></c><c y="NodeSet" t="2019-04-11T12:17:12"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="site_state" />
+<update>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:22:55"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="site_state" />
+<update>
+  <Hidden>false</Hidden>
+  <Aggregate>Count</Aggregate>
+  <Chart>Bar</Chart>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:24:49"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Hidden>false</Hidden>
+  <Aggregate>Average</Aggregate>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:24:55"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Hidden>false</Hidden>
+  <Chart>Bar</Chart>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:25:07"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="CitySection" />
+<update>
+  <Hidden>false</Hidden>
+  <Aggregate>Sum</Aggregate>
+  <Chart>Bar</Chart>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:27:13"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="CitySection" />
+<update>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:31:09"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="CitySection" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:31:09"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<dataField fieldName="Rate1amt" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:32:53"><controller name="VEmployeeActive" />
+<view id="ChartSummary" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:46:24"><controller name="VEmployeeActive" />
+<insert type="view">
+  <ViewId>SummaryChart</ViewId>
+  <Type>Chart</Type>
+  <Legend>true</Legend>
+  <CommandId>command1</CommandId>
+  <Label>Summary</Label>
+  <ShowInSelector>true</ShowInSelector>
+  <ReportTemplate>false</ReportTemplate>
+</insert></c><c y="NodeSet" t="2019-04-11T12:46:42"><controller name="VEmployeeActive" />
+<view id="SummaryChart" />
+<move>
+  <controller name="VEmployeeActive" />
+  <field name="Rate1amt" />
+</move></c><c y="NodeSet" t="2019-04-11T12:47:08"><controller name="VEmployeeActive" />
+<view id="SummaryChart" />
+<dataField fieldName="Rate1amt" />
+<update>
+  <Hidden>false</Hidden>
+  <Aggregate>Average</Aggregate>
+  <Chart>Bar</Chart>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:47:50"><controller name="VEmployeeActive" />
+<view id="SummaryChart" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:48:39"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Group>site_state</Group>
+</update></c><c y="NodeSet" t="2019-04-11T12:49:33"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Group />
+</update></c><c y="NodeSet" t="2019-04-11T12:49:50"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <GroupExpression>site_state</GroupExpression>
+</update></c><c y="NodeSet" t="2019-04-11T12:51:02"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <GroupExpression />
+</update></c><c y="NodeSet" t="2019-04-11T12:54:11"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="Comment" />
+<update>
+  <TextMode>Note</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:54:26"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<dataField fieldName="Comment" />
+<update>
+  <TextMode>Note</TextMode>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T12:57:34"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<update>
+  <Label>Payroll Minimum Wage</Label>
+</update></c><c y="NodeSet" t="2019-04-11T13:11:52"><controller name="PayrollMinWage" />
+<actionGroup id="ag5" />
+<update>
+  <Flat>true</Flat>
+</update></c><c y="NodeSet" t="2019-04-11T13:25:33"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:29:55"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<update>
+  <Tags />
+</update></c><c y="NodeSet" t="2019-04-11T13:30:20"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:36:21"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:36:58"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-attach-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:37:10"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-attach-people</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:37:15"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-people</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:42:34"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-group</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:43:39"><controller name="VEmployeeActive" />
+<actionGroup id="ag5" />
+<update>
+  <Flat>false</Flat>
+</update></c><c y="NodeSet" t="2019-04-11T13:44:29"><controller name="PayrollMinWage" />
+<actionGroup id="ag5" />
+<update>
+  <Flat>false</Flat>
+</update></c><c y="NodeSet" t="2019-04-11T13:47:49"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-attach-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:47:55"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<update>
+  <Tags>material-icon-attach-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:48:00"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<update>
+  <Tags>material-icon-attach-money</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T13:51:17"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>fa-users</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T14:57:51"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>fa-plus</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T15:00:04"><controller name="VEmployeeActive" />
+<view id="grid1" />
+<update>
+  <Tags>material-icon-group</Tags>
+</update></c><c y="NodeSet" t="2019-04-11T15:04:00"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<update>
+  <Label>Review Payroll Minimium Wage</Label>
+</update></c><c y="NodeSet" t="2019-04-11T15:04:18"><controller name="PayrollMinWage" />
+<view id="createForm1" />
+<update>
+  <Label>New Payroll Minimum Wage</Label>
+</update></c><c y="NodeSet" t="2019-04-11T15:06:35"><controller name="PayrollMinWage" />
+<insert type="rule">
+  <Type>Sql</Type>
+  <CommandName>Update</CommandName>
+  <Phase>Execute</Phase>
+  <Script>SET @UpdatedDate = @GETDATE()</Script>
+</insert></c><c y="NodeSet" t="2019-04-11T15:07:55"><controller name="PayrollMinWage" />
+<rule id="r101" />
+<update>
+  <Script>SET @UpdatedDate = GETDATE()</Script>
+</update></c><c y="NodeSet" t="2019-04-11T15:08:56"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <Label>Last Updated</Label>
+</update></c><c y="NodeSet" t="2019-04-11T15:09:19"><controller name="PayrollMinWage" />
+<view id="editForm1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <Hidden>false</Hidden>
+  <Visibility>[UpdatedDate] != 'NULL'</Visibility>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T15:09:58"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <Label>Date Created</Label>
+</update></c><c y="NodeSet" t="2019-04-11T15:13:34"><controller name="PayrollMinWage" />
+<field name="EffectiveDate" />
+<update>
+  <Type>Date</Type>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:13:48"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:13:58"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:15:24"><controller name="PayrollMinWage" />
+<field name="NextEffectiveDate" />
+<update>
+  <Type>Date</Type>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:17:09"><controller name="PayrollMinWage" />
+<field name="NextEffectiveDate" />
+<update>
+  <DataFormatString>dddd</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:17:20"><controller name="PayrollMinWage" />
+<field name="EffectiveDate" />
+<update>
+  <DataFormatString>dddd</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:17:31"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <DataFormatString>dddd</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:17:36"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <DataFormatString>dddd</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:17:44"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>dddd</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:19:40"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>ddd, mm/dd/yy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:21:11"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:22:56"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>ddd., MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:25:29"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>ddd, MMM d, yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:26:26"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:26:35"><controller name="PayrollMinWage" />
+<field name="EffectiveDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:26:41"><controller name="PayrollMinWage" />
+<field name="NextEffectiveDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:27:23"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:27:29"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <DataFormatString>D</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:29:27"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="CreatedDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yyyy</DataFormatString>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T15:29:35"><controller name="PayrollMinWage" />
+<view id="grid1" />
+<dataField fieldName="UpdatedDate" />
+<update>
+  <DataFormatString>ddd, MM/dd/yyyy</DataFormatString>
+  <Hidden>false</Hidden>
+  <DataViewShowInSummary>false</DataViewShowInSummary>
+</update></c><c y="NodeSet" t="2019-04-11T15:30:53"><controller name="PayrollMinWage" />
+<field name="EffectiveDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:31:02"><controller name="PayrollMinWage" />
+<field name="NextEffectiveDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:31:45"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy hh:mm</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:32:00"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy hh:mm</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:32:46"><controller name="PayrollMinWage" />
+<field name="CreatedDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy hh:mm tt</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:32:52"><controller name="PayrollMinWage" />
+<field name="UpdatedDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy hh:mm tt</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:33:02"><controller name="VEmployeeActive" />
+<field name="LastpaidDate" />
+<update>
+  <DataFormatString>MM/dd/yyyy</DataFormatString>
+</update></c><c y="NodeSet" t="2019-04-11T15:36:59"><controller name="PayrollMinWage" />
+<actionGroup id="ag5" />
+<action id="a4" />
+<delete /></c><c y="NodeSet" t="2019-04-11T15:36:59"><controller name="PayrollMinWage" />
+<actionGroup id="ag5" />
+<action id="a3" />
+<delete /></c><c y="NodeSet" t="2019-04-11T15:36:59"><controller name="PayrollMinWage" />
+<actionGroup id="ag5" />
+<action id="a2" />
+<delete /></c><c y="NodeSet" t="2019-04-11T15:45:51"><controller name="PayrollMinWage" />
+<actionGroup id="ag1" />
+<update>
+  <HeaderText>HI I am here!</HeaderText>
+</update></c><c y="NodeSet" t="2019-04-11T15:47:27"><controller name="PayrollMinWage" />
+<actionGroup id="ag1" />
+<update>
+  <HeaderText />
+</update></c><c y="NodeSet" t="2019-04-11T15:48:45"><controller name="PayrollMinWage" />
+<update>
+  <GenerateDataAccessObjects>false</GenerateDataAccessObjects>
+  <AllowAnnotations>true</AllowAnnotations>
+</update></c><c y="NodeSet" t="2019-04-11T15:50:13"><controller name="PayrollMinWage" />
+<update>
+  <AllowAnnotations />
+</update></c><c y="NodeSet" t="2019-04-11T16:13:07"><controller name="PayrollMinWage" />
+<field name="State" />
+<update>
+  <ItemsDataController>State</ItemsDataController>
+  <ItemsDataValueField>State</ItemsDataValueField>
+  <ItemsDataTextField>State</ItemsDataTextField>
+</update></c><c y="NodeSet" t="2019-04-11T16:14:18"><controller name="State" />
+<view id="grid1" />
+<update>
+  <SortExpression>state asc</SortExpression>
+</update></c></log><log type="Application"><c y="NodeSet" t="2019-04-10T12:43:35"><page name="VEmployeeActive" />
+<rename>Employee List</rename></c><c y="NodeSet" t="2019-04-10T12:48:11"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <ShowQuickFind>false</ShowQuickFind>
+  <SearchOnStart>true</SearchOnStart>
+</update></c><c y="NodeSet" t="2019-04-10T12:48:42"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <FilterFields>VsiteallState</FilterFields>
+  <FilterField2>VsiteallCitySection</FilterField2>
+  <FilterField3>Rate1amt</FilterField3>
+</update></c><c y="NodeSet" t="2019-04-10T12:53:05"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <MultiSelect />
+  <ShowQuickFind>true</ShowQuickFind>
+  <FilterSource>view1</FilterSource>
+</update></c><c y="NodeSet" t="2019-04-10T12:53:57"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <FilterSource />
+</update></c><c y="NodeSet" t="2019-04-10T12:54:11"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <FilterFields />
+  <FilterField2 />
+  <FilterField3 />
+</update></c><c y="NodeSet" t="2019-04-10T13:18:27"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <FilterFields>VsiteallState</FilterFields>
+  <FilterField2>VsiteallCitySection</FilterField2>
+  <FilterField3>Rate1amt</FilterField3>
+</update></c><c y="NodeSet" t="2019-04-10T13:19:03"><page name="VEmployeeActive" />
+<update>
+  <UseExtenders>false</UseExtenders>
+  <Offline>false</Offline>
+  <Title>Employee List</Title>
+  <Description>View Employee List</Description>
+  <About>This page allows Employee List management.</About>
+</update></c><c y="NodeSet" t="2019-04-10T14:19:41"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <ShowQuickFind>false</ShowQuickFind>
+  <FilterFields>SiteState</FilterFields>
+  <FilterField2>CitySection</FilterField2>
+</update></c><c y="NodeSet" t="2019-04-10T15:09:41"><page name="VEmployeeActive" />
+<dataView id="view1" />
+<update>
+  <ShowQuickFind>true</ShowQuickFind>
+</update></c><c y="NodeSet" t="2019-04-11T12:56:45"><page name="UnivtblStates" />
+<delete /></c><c y="NodeSet" t="2019-04-11T12:56:45"><page name="SiteContent" />
+<delete /></c><c y="NodeSet" t="2019-04-11T13:02:41"><page name="PayrollMinWage" />
+<dataView id="view1" />
+<update>
+  <Text>Payroll Minimum Wage</Text>
+</update></c><c y="NodeSet" t="2019-04-11T13:05:40"><page name="PayrollMinWage" />
+<dataView id="view1" />
+<update>
+  <Activator>Tab</Activator>
+</update></c><c y="NodeSet" t="2019-04-11T13:28:29"><page name="PayrollMinWage" />
+<dataView id="view1" />
+<update>
+  <Activator />
+</update></c><c y="NodeSet" t="2019-04-11T13:29:32"><page name="PayrollMinWage" />
+<dataView id="view1" />
+<update>
+  <Tag>material-icon-money</Tag>
+</update></c><c y="NodeSet" t="2019-04-11T13:29:46"><page name="PayrollMinWage" />
+<dataView id="view1" />
+<update>
+  <Tag />
+</update></c><c y="NodeSet" t="2019-04-11T13:34:21"><page name="VEmployeeActive" />
+<update>
+  <CustomStyle>material-icon-people</CustomStyle>
+</update></c><c y="NodeSet" t="2019-04-11T13:34:47"><page name="PayrollMinWage" />
+<update>
+  <UseExtenders>false</UseExtenders>
+  <Offline>false</Offline>
+  <CustomStyle>material-icon-money</CustomStyle>
+  <About>This page allows Payroll Minimum Wage management.</About>
+</update></c><c y="NodeSet" t="2019-04-11T13:42:19"><page name="VEmployeeActive" />
+<update>
+  <CustomStyle>material-icon-group</CustomStyle>
+</update></c><c y="NodeSet" t="2019-04-11T13:47:13"><page name="PayrollMinWage" />
+<update>
+  <Title>Payroll Minimum Wage</Title>
+  <Description>View Payroll Minimum Wage</Description>
+</update></c><c y="NodeSet" t="2019-04-11T13:47:36"><page name="PayrollMinWage" />
+<update>
+  <CustomStyle>material-icon-attach-money</CustomStyle>
+</update></c><c y="NodeSet" t="2019-04-11T13:51:23"><page name="VEmployeeActive" />
+<update>
+  <CustomStyle>fa-users</CustomStyle>
+</update></c><c y="NodeSet" t="2019-04-11T15:00:14"><page name="VEmployeeActive" />
+<update>
+  <CustomStyle>material-icon-group</CustomStyle>
+</update></c><c y="NodeSet" t="2019-04-11T15:02:30"><page name="PayrollMinWage" />
+<rename>Payroll Minimum Wage</rename></c><c y="NodeSet" t="2019-04-11T16:12:28"><page name="State" />
+<delete /></c></log></logs>

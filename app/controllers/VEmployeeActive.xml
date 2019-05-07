@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataController name="VEmployeeActive" conflictDetection="overwriteChanges" label="V Employee Active" xmlns="urn:schemas-codeontime-com:data-aquarium">
+  <commands>
+    <command id="command1" type="Text">
+      <text><![CDATA[
+select
+	"vEmployeeActive"."site_state" "site_state"
+	,"vEmployeeActive"."city_section" "CitySection"
+	,"vEmployeeActive"."rate1amt" "Rate1amt"
+	,"vEmployeeActive"."last_name" "LastName"
+	,"vEmployeeActive"."first_name" "FirstName"
+	,"vEmployeeActive"."filenumber" "Filenumber"
+	,"vEmployeeActive"."site_name" "SiteName"
+	,"vEmployeeActive"."jobno" "Jobno"
+	,"vEmployeeActive"."lastpaid_date" "LastpaidDate"
+	,"vEmployeeActive"."site_address1" "SiteAddress1"
+	,"vEmployeeActive"."site_address2" "SiteAddress2"
+	,"vEmployeeActive"."salhr_type" "SalhrType"
+from "dbo"."vEmployeeActive" "vEmployeeActive"
+]]></text>
+    </command>
+    <command id="manageridIdentityCommand" type="Text" event="Inserted">
+      <text><![CDATA[select @@identity]]></text>
+      <output>
+        <fieldOutput fieldName="" />
+      </output>
+    </command>
+  </commands>
+  <fields>
+    <field name="site_state" type="String" label="Site State" length="2" showInSummary="true" readOnly="true">
+      <items style="OneToOne" dataController="VEmployeeActive" dataView="grid1" dataTextField="site_state" dataValueField="site_state" />
+    </field>
+    <field name="CitySection" type="String" label="Site County" length="30" showInSummary="true" allowNulls="false">
+      <items dataController="VEmployeeActive" style="DropDownList" dataView="grid1" dataTextField="CitySection" dataValueField="CitySection" />
+    </field>
+    <field name="Rate1amt" type="Decimal" label="Pay Rate" showInSummary="true" dataFormatString="c2" />
+    <field name="LastName" type="String" label="Last Name" length="30" showInSummary="true" />
+    <field name="FirstName" type="String" label="First Name" length="30" showInSummary="true" />
+    <field name="Filenumber" type="String" label="File No." length="7" />
+    <field name="SiteName" type="String" label="Site Name" length="30" />
+    <field name="Jobno" type="String" label="Job No." length="7" />
+    <field name="LastpaidDate" type="Date" dataFormatString="MM/dd/yyyy" label="Last Paid Date" />
+    <field name="WorkOrder" type="Int32" readOnly="true" label="Work Order" computed="true">
+      <formula>case
+	when "vEmployeeActive"."site_workorder" is null then 0
+	else "vEmployeeActive"."site_workorder"
+end</formula>
+      <items style="DropDownList">
+        <item value="0" text="No" />
+        <item value="1" text="Yes" />
+      </items>
+    </field>
+    <field name="SiteAddress1" type="String" label="Site Address 1" length="30" />
+    <field name="SiteAddress2" type="String" label="Site Address 2" length="30" />
+    <field name="SalhrType" type="String" label="Salhr Type" length="1" />
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Employee List" filter="SalhrType &lt;&gt; 'S'" tags="material-icon-group">
+      <headerText>$DefaultGridViewDescription</headerText>
+      <dataFields>
+        <dataField fieldName="site_state" columns="2" search="Suggested" searchOptions="=" />
+        <dataField fieldName="CitySection" columns="30" search="Suggested" tag="$include" searchOptions="$in" />
+        <dataField fieldName="Rate1amt" columns="15" search="Suggested" searchOptions="=,&lt;,&lt;=,&gt;,&gt;=" tag="&lt;=,=,&lt;,&gt;,&gt;=" />
+        <dataField fieldName="LastName" columns="30" />
+        <dataField fieldName="FirstName" columns="30" />
+        <dataField fieldName="Filenumber" columns="7" />
+        <dataField fieldName="SiteName" columns="30" />
+        <dataField fieldName="Jobno" columns="7" />
+        <dataField fieldName="LastpaidDate" columns="20" textMode="Static" />
+        <dataField fieldName="WorkOrder" columns="15" />
+        <dataField fieldName="SiteAddress1" columns="30" />
+        <dataField fieldName="SiteAddress2" columns="30" />
+        <dataField fieldName="SalhrType" columns="1" hidden="true" />
+      </dataFields>
+    </view>
+  </views>
+  <actions>
+    <actionGroup id="ag1" scope="Grid" />
+    <actionGroup id="ag5" scope="ActionBar" headerText="Actions" flat="false">
+      <action id="a1" commandName="ExportCsv" />
+    </actionGroup>
+    <actionGroup id="ag7" scope="ActionBar" headerText="Report">
+      <action id="a1" commandName="ReportAsPdf" />
+      <action id="a2" commandName="ReportAsImage" />
+      <action id="a3" commandName="ReportAsExcel" />
+      <action id="a4" commandName="ReportAsWord" />
+    </actionGroup>
+  </actions>
+</dataController>

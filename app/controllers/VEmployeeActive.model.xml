@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="dbo" baseTable="vEmployeeActive" alias="vEmployeeActive" created="2019-04-10T12:18:13" modified="2019-04-10T16:46:37" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="site_state" fieldName="site_state" label="Site State" />
+    <column name="city_section" fieldName="CitySection" label="County" />
+    <column name="rate1amt" fieldName="Rate1amt" label="Pay Rate" />
+    <column name="last_name" fieldName="LastName" label="Last Name" />
+    <column name="first_name" fieldName="FirstName" label="First Name" />
+    <column name="filenumber" fieldName="Filenumber" label="File No." />
+    <column name="site_name" fieldName="SiteName" label="Site Name" />
+    <column name="jobno" fieldName="Jobno" label="Job No" />
+    <column name="lastpaid_date" fieldName="LastpaidDate" label="Last Paid Date" format="g" />
+    <column fieldName="WorkOrder" type="int" dataType="Int32" label="Work Order">
+      <formula><![CDATA[case
+	when "vEmployeeActive"."site_workorder" is null then 0
+	else "vEmployeeActive"."site_workorder"
+end]]></formula>
+    </column>
+    <column name="site_address1" fieldName="SiteAddress1" label="Site Address 1" />
+    <column name="site_address2" fieldName="SiteAddress2" label="Site Address 2" />
+    <column name="salhr_type" fieldName="SalhrType" label="Salhr Type" />
+  </columns>
+</dataModel>

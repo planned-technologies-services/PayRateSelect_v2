@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Chart_VEmployeeActive_SummaryChart.ascx.cs" Inherits="Controls_Chart_VEmployeeActive_SummaryChart"  %><aquarium:ControllerDataSource ID="ControllerDataSource1" runat="server" DataController="VEmployeeActive" DataView="SummaryChart" PageRequestParameterName="r" />
